@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="login.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        Login Page
+    </header>
+    <section>
+        <form>
+            <h1>Your Information</h1>
+            <div class="name">
+                <div class="fname">
+                    <label for="fname">First Name</label><br>
+                    <input id="fname" type="text" placeholder="FirstName">
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name</label><br>
+                    <input id="lname" type="text" placeholder="LastName">
+                </div>
+            </div>
+            <div class="address">
+                <label for="st_addr">Street Address</label><br>
+                <input id="st_addr" type="text" placeholder="Street Address">
+            </div>
+            <div class="state">
+                <label for="sname">State</label><br>
+                <select id="sname">
+                    <option value="AP">AP</option>
+                    <option value="TN">TN</option>
+                    <option value="KL">KL</option>
+                    <option value="KA">KA</option>
+                </select>
+            </div>
+            <div class="email">
+                <label for="email_addr">Email Address</label><br>
+                <input id="email_addr" type="text" placeholder="Email Address">
+            </div>
+            <div class="gender">
+                <p>Select the Gender</p>
+                <input type="radio" id="male" value="male">
+                <label for="male">male</label><br>
+                <input type="radio" id="female" value="female">
+                <label for="female">female</label><br>
+                <input type="radio" id="others" value="others">
+                <label for="others">Others</label>
+            </div>
+            <div class="lang">
+                <p>Choose the languages you speak</p>
+                <input type="checkbox" id="Telugu" value="Telugu">
+                <label for="Telugu">Telugu</label><br>
+                <input type="checkbox" id="hindi" value="hindi">
+                <label for="hindi">Hindi</label><br>
+                <input type="checkbox" id="Tamil" value="Tamil">
+                <label for="Tamil">Tamil</label><br>
+                <input type="checkbox" id="Kannada" value="Kannada">
+                <label for="Kannada">Kannada</label>
+            </div>
+            <div class="button">
+                <input type="button" value="save" onclick="window.location='table.html'">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

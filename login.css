@@ -1,0 +1,51 @@
+header{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+section{
+    margin:50px 20%;
+    color: white;
+}
+form{
+    background-color: #354463;
+    padding:50px 20px;
+}
+h1{
+    text-align: center;
+}
+
+div.name{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+input[type="text"],label,select{
+    margin:20px 20px;
+    text-transform: uppercase;
+    width:80%;
+}
+input{
+    background-color: #354463;
+    border:0px;
+    border-bottom: 2px solid white;
+}
+div.address input,div.email input{
+    width:90%;
+}
+div.gender,div.lang{
+    margin:20px 20px;
+}
+p{
+    text-transform: uppercase;
+}
+
+input[type="button"]{
+    margin: 20px 20px;
+    padding: 0.5em 1em;
+    font-size: medium;
+    background-color: white;
+}
+div.button{
+    text-align: center;
+}
